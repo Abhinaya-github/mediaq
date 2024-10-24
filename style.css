@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: bisque;
+    width: 100%;
+   
+}
+a{
+   text-decoration: none;
+   font-size: 24px;
+   color: black;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.icon{
+    display: none;
+    font-size: 42px;
+}
+@media screen  and (width<800px){
+    nav{
+        display: none;
+    }
+    .icon{
+        display: flex;
+    }
+    .div2{
+        background-color: white;
+        position: absolute;
+       font-size: 16px;
+        border-radius: 30px;
+        top: 50%;
+        left: 50%;
+       transform: translate(-50%,40%);
+       text-align: center;
+        width: 80%;
+      
+    
+    }
+    @media screen and (width<400px) {
+      
+     .div2{
+        padding: 0px;
+        font-size: 16px;
+        text-align: justify;
+
+
+       }
+       button{
+        background-color: orangered;
+        border-radius: 40px;
+        padding: 30px;
+        font-size: 24px;
+        text-align: center;
+        font-size: 16px;
+        
+       
+    
+      
+    
+    }
+        
+    }
+
+    
+}
+a:hover{
+    background-color: gray;
+}
+.icon,button:hover{
+    background-color: gray;
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/z/concept-love-family-hands-mother-baby-28910388.jpg?ct=jpeg) ;
+    position: relative;
+  
+}
+.div2{
+    background-color: white;
+    position: absolute;
+   font-size: 30px;
+    border-radius: 30px;
+    padding: 70px;
+    top: 270%;
+    left: 50%;
+    text-align: center;
+  
+
+}
+button{
+    background-color: orangered;
+    border-radius: 40px;
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+    
+   
+
+  
+
+}
+p{
+    text-align: center;
+}
+.p1{
+   text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+.icon1{
+    font-size: 22px;
+    text-align: center;
+    padding-left: 2%;
+    color: orangered;
+    
+    
+}
+.a{
+    font-size: 16px;
+   
+}
+
+
+
+
+
+
